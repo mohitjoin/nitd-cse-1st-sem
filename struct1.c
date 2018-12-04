@@ -1,13 +1,14 @@
 #include<stdio.h>
 void main()
-{
-  int i;
-  struct student
+   struct student
   {
     char name[15];
     int roll_no;
     int rank;
   };
+{
+  int i;
+ 
   struct student student[3];
   printf("input data:\n");
   printf("name    roll_no   rank\n");
