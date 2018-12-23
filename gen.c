@@ -1,7 +1,13 @@
-#include<Stdio.h>
+#include<stdio.h>
+#include<string.h>
 void main()
 {
-  printf("_____________\n");
-  printf(" hello world \n");
-  printf("_____________\n");
+  char str[15];
+  int x=0;
+
+  printf("Enter your string: ");
+  gets(str);
+  int n=strlen(str);
+
+
 }

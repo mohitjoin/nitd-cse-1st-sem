@@ -11,7 +11,7 @@ int main()
   printf("index: ");
   scanf("%d",&x);
 
-  printf("***************************\n");
+  printf("\n\n\n___________________________\n");
   printf("         CALENDER          \n");
   printf("MON TUE WED THR FRI SAT SUN\n");
   for(i=0;i<x;i++)
@@ -31,7 +31,7 @@ int main()
     if(i==7-x||i==14-x||i==21-x||i==28-x||i==35-x)
     printf("\n");
   }
-  printf("\n***************************\n");
+  printf("\n___________________________\n\n");
 
   return 0;
 }
